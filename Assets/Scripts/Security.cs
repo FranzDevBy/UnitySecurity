@@ -28,8 +28,7 @@ public class Security : MonoBehaviour
 
     void Start()
     {
-        Invoke("Set", time); //задержка 
-        //Set();
+        Set();
         //DebugSave(); //записываем в файл значение переменной code
         //DebugLoad(); //считываем значение из файла
     }
